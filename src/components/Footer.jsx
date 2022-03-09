@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='Footer'>
-            <div>STUDIO ICH - COACH STYLE</div>
+            <div className='footerTitle'>STUDIO ICH - COACH STYLE</div>
             <div class="network">
                <a class="instagram"><img></img></a>
                <a class="facebook"><img></img></a>
