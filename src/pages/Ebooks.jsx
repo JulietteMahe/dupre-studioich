@@ -9,12 +9,12 @@ const Ebooks = (props) => {
     useEffect(() => {
         if (props.id) {
             Axios
-                .get(`https://a.nacapi.com/sainstgram.posts?userid=${props.id}`)
+                .get(`https://api.jsonbin.io/b/62293e2da703bb67492711a1`)
                 .then((response) => setEbookList(response.data))
                 .catch(error => console.log(`API (ebooks) call error: ${error}`))
         } else {
             Axios
-                .get("https://a.nacapi.com/sainstgram.posts")
+                .get("https://api.jsonbin.io/b/62293e2da703bb67492711a1")
                 .then((response) => setEbookList(response.data))
                 .catch(error => console.log(`API (ebooks) call error: ${error}`))
         }
@@ -22,7 +22,6 @@ const Ebooks = (props) => {
 
     return (
         <div className={`${props.className} Ebooks`}>
-            Ebooks
             {ebookList
                 .map((ebook, index) => (
                     <div className='Ebooks-unit' key={index}>
