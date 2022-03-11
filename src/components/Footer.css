@@ -52,26 +52,18 @@
 @media screen and (max-width: 390px){
     .Footer {
         width: 100%;
-        Height: 4%;
+        height: 6%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        color: grey;
-        border: none;
-        bottom: 0; 
-        position: sticky;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
     }
+    
     .footerTitle {
-        font-size: 14px;
-        padding-top: 10px;
-        padding-bottom: 0px;
-        height: 50%;
-    }    
+        font-size: 12px;
+    } 
+    
     .footNav {
-       width: 100%;
-       height: 50%;
        display: flex;
        flex-direction: row;
        justify-content: space-around;
@@ -79,19 +71,88 @@
        font-weight: 300;
     }
     
-    .foot-link {
+    .logoInsta {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+    } 
+    
+    .foot-text {
+        font-size: 10px;
+        font-weight: 300;
         color: grey;
-        margin: 10px;
-        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .foot-link {
+        font-size: 10px;
+        font-weight: 300;
+        color: grey;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 }
 
 @media screen and (min-width: 391px) and (max-width: 767px){
     .Footer {
         width: 100%;
-        Height: 4%;
+        height: 5%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 12px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    
+    .footerTitle {
+        font-size: 12px;
+    } 
+    
+    .footNav {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       font-size: 12px;
+       font-weight: 300;
+    }
+    
+    .logoInsta {
+        margin-top: 3px;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+    } 
+    
+    .foot-text {
+        font-size: 12px;
+        font-weight: 300;
+        color: grey;
+        margin-top: 0px;
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+    
+    .foot-link {
+        font-size: 12px;
+        font-weight: 300;
+        color: grey;
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px){
+    .Footer {
+        width: 100%;
+        Height: 12%;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         background-color: white;
@@ -102,56 +163,41 @@
     }
     .footerTitle {
         font-size: 14px;
-        padding-top: 10px;
+        margin-top: 4px;
+        margin-left: 0px;
     }    
     .footNav {
-       width: 100%;
-       height: 50%;
+       width: 35%;
+       height: auto;
        display: flex;
        flex-direction: row;
-       justify-content: space-around;
-       font-size: 12px;
-       font-weight: 300;
-    }
-    
-    .foot-link {
-        color: grey;
-        margin: 10px;
-        padding-bottom: 5px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1180px){
-    .Footer {
-        width: 100%;
-        Height: 4%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        color: grey;
-        border: none;
-        bottom: 0; 
-        position: sticky;
-    }
-    .footerTitle {
-        font-size: 16px;
-        padding-top: 15px;
-    }    
-    .footNav {
-       width: 100%;
-       height: 50%;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
+       justify-content: space-evenly;
        font-size: 14px;
        font-weight: 300;
     }
     
-    .foot-link {
+    .logoInsta {
+        margin-top: 9px;
+        margin-left: 0px;
+        width: 15px;
+        height: 15px;
+    } 
+    
+    .foot-text {
+        font-size: 14px;
+        font-weight: 300;
         color: grey;
-        margin: 10px;
-        padding-bottom: 5px;
+        margin-top: 6px;
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+    
+    .foot-link {
+        font-size: 14px;
+        font-weight: 300;
+        color: grey;
+        margin-right: 7px;
+        margin-left: 0px;
+        margin-top: 6px;
     }
 }
