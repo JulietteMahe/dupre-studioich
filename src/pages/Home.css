@@ -1,5 +1,145 @@
-.home {
-    height: 60%;
+.Home {
     width: 100%;
-    background-color: grey;
+    height: 85vh;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    background-color: var(--articles-background-color);
+}
+
+.homeLeft {
+    width: 67%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.homeImg {
+    max-width: 95%;
+    max-height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.homeRight {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.homeTitle {
+    visibility: visible;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.homeDesc {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.homeText {
+    font-size: 14px;
+    margin-right: 50px;
+    margin-bottom: 17px;
+    margin-left: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+@media screen and (max-width: 390px) {
+    .Home {
+        width: 100%;
+        height: 100%;
+        flex-direction: column; 
+        padding-bottom: 50px;
+    }
+    .homeLeft {
+        width: 100%;
+        margin: 0px;
+    }
+    .homeRight {
+        width: 100%;
+        padding: 15px;
+    }
+    .homeTitle {
+        visibility: visible;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .homeText {
+        font-size: 12px;
+        margin: 10px;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 767px){
+    .Home {
+        width: 100%;
+        height: 100%;
+        flex-direction: column; 
+        padding-bottom: 20px;
+    }
+    .homeLeft {
+        width: 100%;
+        margin: 0px;
+    }
+    .homeRight {
+        width: 100%;
+        padding: 15px;
+    }
+    .homeTitle {
+        visibility: visible;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-bottom: 7px;
+    }
+    .homeText {
+        font-size: 12px;
+        margin: 7px;
+        margin-right: 12px;
+        margin-left: 12px;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px){
+    .Home {
+        height: 100%;
+        display: flex;
+        flex-direction: column; 
+        padding-bottom: 50px;
+    }    
+    .homeLeft {
+        width: 80%;
+        height: 100%;
+        margin-right: 10px;
+    }
+    .homeRight {
+        width: 70%;
+    }
+    .homeTitle {
+        visibility: visible;
+        font-size: 20px;
+        margin: 15px;
+    }    
+    .homeText {
+        font-size: 16px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }    
 }
