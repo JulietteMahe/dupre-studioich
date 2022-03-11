@@ -11,10 +11,6 @@ const Navbar = () => {
                </NavLink>
             </div>
             <div className="links-nav">
-               <NavLink to ="/new-in" className={({ isActive }) =>
-              isActive ? "selected" : "navigation-link"}>
-                  New in
-               </NavLink>
                <NavLink to ="/concept" className={({ isActive }) =>
               isActive ? "selected" : "navigation-link"}>
                   Concept

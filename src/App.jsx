@@ -3,7 +3,6 @@ import './App.css';
 
 import Home from "./pages/Home";
 import Ebooks from "./pages/Ebooks";
-import NewIn from "./pages/NewIn";
 import Prestations from "./pages/Prestations";
 import Concept from "./pages/Concept";
 import Navbar from "./components/Navbar";
@@ -16,7 +15,6 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route path='/ebooks' element={<Ebooks />}/>
-        <Route path='/new-in' element={<NewIn />}/>
         <Route path='/prestations' element={<Prestations />}/>
         <Route path='/concept' element={<Concept />}/>
       </ Routes>
