@@ -129,6 +129,8 @@
     .conceptRight {
         width: 100%;
         padding: 15px;
+        align-items: center;
+        justify-content: center;
     }
     .pageTitle {
         visibility: visible;
@@ -136,8 +138,9 @@
         margin-left: 15px;
     }
     .pageText {
-        font-size: 12px;
-        margin: 15px;
+        width: 90%;
+        font-size: 10px;
+        margin: 10px;
         font-weight: 400;
         text-align: justify;
     }
